@@ -1,5 +1,5 @@
 {
-	"homepage": "http://nir102030.github.io/react-google-map",
+	"homepage": "http://nir102030.github.io/Map-IP-Location",
 	"name": "react-google-map",
 	"version": "0.1.0",
 	"private": true,
@@ -16,7 +16,7 @@
 		"web-vitals": "^1.0.1"
 	},
 	"scripts": {
-		"pre-deploy": "yarn run build",
+		"predeploy": "npm run build",
 		"deploy": "gh-pages -d build",
 		"start": "react-scripts start",
 		"build": "react-scripts build",
